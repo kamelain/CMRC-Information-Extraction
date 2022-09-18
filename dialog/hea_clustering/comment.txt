@@ -1,0 +1,11 @@
+bert_hae-master: 加 cls 最佳版本
+
+kg1/kg2: +pos_ids, 用 kpos embedding
+kg3/kg4: +pos_ids, 改 position embedding
+
+norm_cls: 重加 kg 嘗試結果
+
+
+
+kg1: wordnet
+kg2: plsa

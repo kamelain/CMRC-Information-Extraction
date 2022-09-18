@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python preprocess_data.py > preprocess.log
