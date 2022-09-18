@@ -1,4 +1,4 @@
-# CMRC-Information-Extraction
+# CMRC-Information-Extraction-and-Knowledge-Injection
 Multi-turn MRC Implementation for "A Study on the Information Extraction and Knowledge Injection for Machine Reading Comprehension"
 
 
