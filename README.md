@@ -8,24 +8,24 @@ Multi-turn MRC Implementation for "A Study on the Information Extraction and Kno
 本程式碼為論文 [A Study on the Information Extraction and Knowledge Injection for Machine Reading Comprehension](https://etds.lib.ntnu.edu.tw/thesis/detail/c7f11bb51318d02b9874ae5429b6eb82/?seq=1) 於多倫機器閱讀理解的實作部分。包括 (1) Baseline: BERT, BERT-HAE, ExCorD (2) 加入 Information Extraction 資訊的結果 (3) 注入 Knowledge Graph 知識的結果 (4) N-best 答案進行 Reranking 的 Ensemble 方法與結果。
 
 
-![Clustering Strategies](https://github.com/kamelain/CMRC-Information-Extraction/blob/main/Screen%20Shot%202022-09-19%20at%2012.49.15%20AM.png)
 >Clutering Strategies 
+![Clustering Strategies](https://github.com/kamelain/CMRC-Information-Extraction/blob/main/Screen%20Shot%202022-09-19%20at%2012.49.15%20AM.png)
 
 
-![IE](https://github.com/kamelain/CMRC-Information-Extraction/blob/main/Screen%20Shot%202022-09-19%20at%2012.49.29%20AM.png)
 >Information Extraction 架構
+![IE](https://github.com/kamelain/CMRC-Information-Extraction/blob/main/Screen%20Shot%202022-09-19%20at%2012.49.29%20AM.png)
 
 
-![KI1](https://github.com/kamelain/CMRC-Information-Extraction/blob/main/Screen%20Shot%202022-09-19%20at%2012.49.48%20AM.png)
 >Knowledge Injection - WortNet 架構
+![KI1](https://github.com/kamelain/CMRC-Information-Extraction/blob/main/Screen%20Shot%202022-09-19%20at%2012.49.48%20AM.png)
 
 
-![KI2](https://github.com/kamelain/CMRC-Information-Extraction/blob/main/Screen%20Shot%202022-09-19%20at%2012.49.40%20AM.png)
 >Knowledge Injection - PLSA/PRGC 架構
+![KI2](https://github.com/kamelain/CMRC-Information-Extraction/blob/main/Screen%20Shot%202022-09-19%20at%2012.49.40%20AM.png)
 
 
-![reranking](https://github.com/kamelain/CMRC-Information-Extraction/blob/main/Screen%20Shot%202022-09-19%20at%2012.50.26%20AM.png)
 >Answer Re-ranking 示意圖
+![reranking](https://github.com/kamelain/CMRC-Information-Extraction/blob/main/Screen%20Shot%202022-09-19%20at%2012.50.26%20AM.png)
 
 
 
