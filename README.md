@@ -2,10 +2,19 @@
 Multi-turn MRC Implementation for "A Study on the Information Extraction and Knowledge Injection for Machine Reading Comprehension"
 
 
-基於[BERT](https://github.com/google-research/bert)、[BERT-HAE](https://github.com/prdwb/bert_hae)、[BERT-HAM](https://github.com/prdwb/attentive_history_selection) 以及 [ExCorD](https://github.com/dmis-lab/excord) 的資源修改。
+基於 [BERT](https://github.com/google-research/bert)、[BERT-HAE](https://github.com/prdwb/bert_hae)、[BERT-HAM](https://github.com/prdwb/attentive_history_selection) 以及 [ExCorD](https://github.com/dmis-lab/excord) 的資源修改。
 適用於英文多輪機器閱讀理解 [QuAC](https://quac.ai)。
 
-本程式碼為論文 [A Study on the Information Extraction and Knowledge Injection for Machine Reading Comprehension](https://etds.lib.ntnu.edu.tw/thesis/detail/c7f11bb51318d02b9874ae5429b6eb82/?seq=1) 於多倫機器閱讀理解的實作部分。包括 (1) Baseline: BERT, BERT-HAE, ExCorD (2) 加入 Information Extraction 資訊的結果 (3) 注入 Knowledge Graph 知識的結果 (4) N-best 答案進行 Reranking 的 Ensemble 方法與結果。
+本程式碼為論文 [A Study on the Information Extraction and Knowledge Injection for Machine Reading Comprehension](https://etds.lib.ntnu.edu.tw/thesis/detail/c7f11bb51318d02b9874ae5429b6eb82/?seq=1) 於多輪機器閱讀理解的實作部分。實作分為四個部分。
+
+>(1) Baseline: BERT, BERT-HAE, ExCorD
+
+>(2) Information Extraction（資訊擷取）
+
+>(3) Knowledge Graph（知識注入）
+
+>(4) Ensemble（N-best 答案進行 Reranking）
+
 
 
 >Clutering Strategies 
